@@ -1,0 +1,49 @@
+i.weather-icon {
+  font-size: 8rem;
+}
+
+#location {
+  font-family: 'Cabin', sans-serif;
+  font-size: 3rem;
+  margin: 3rem 0;
+}
+
+.input-group {
+  padding-top: 0.25rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container {
+  max-width: 50rem;
+}
+
+#weather-icon-box {
+  width: 50%;
+  float: left;
+}
+
+#weather-info-box {
+  width: 50%;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+}
+#weather-info-box p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#weather-info-box p#temp {
+  font-size: 2rem;
+}
+
+.bg-color-red {
+  background-color: #D25050;
+}
+
+.bg-color-blue {
+  background-color: #4A6FE0;
+}
+
+input[type=text]:focus {
+  border: black;
+}
